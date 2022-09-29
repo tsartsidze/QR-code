@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3a768f45;
+  overflow: hidden;
+}
+
+.main-box {
+  width: 20%;
+  padding: 1.2rem;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 8px 10px #aaaaaa;
+}
+
+.QR-photo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.last-text p {
+  font-size: 15px;
+}
+
+.last-text {
+  padding: 0 20px;
+}
+
+/* media */
+@media (max-width: 992px) {
+  .main-box {
+    width: 40%;
+  }
+  .last-text p {
+    font-size: 12px;
+  }
+  .first-text h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-box {
+    width: 70%;
+  }
+}
